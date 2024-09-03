@@ -8,6 +8,11 @@ v1.0.1 (unreleased)
 
 New Features
 ~~~~~~~~~~~~
+- Adds defaults for `open_virtual_dataset_from_v3_store` in (:pull:`234`)
+  By `Raphael Hagen <https://github.com/norlandrhagen>`_.
+
+- New ``group`` option on ``open_virtual_dataset`` enables extracting specific HDF Groups.
+  (:pull:`165`) By `Scott Henderson <https://github.com/scottyhq>`_.
 
 - Adds `decode_times` to open_virtual_dataset (:pull:`232`)
   By `Raphael Hagen <https://github.com/norlandrhagen>`_.
@@ -20,6 +25,7 @@ New Features
 
 Breaking changes
 ~~~~~~~~~~~~~~~~
+
 - Serialize valid ZarrV3 metadata and require full compressor numcodec config (for :pull:`193`)
   By `Gustavo Hidalgo <https://github.com/ghidalgo3>`_.
 - VirtualiZarr's `ZArray`, `ChunkEntry`, and `Codec` no longer subclass
@@ -43,6 +49,10 @@ Bug fixes
 
 Documentation
 ~~~~~~~~~~~~~
+
+- Adds virtualizarr + coiled serverless example notebook (:pull`223`)
+  By `Raphael Hagen <https://github.com/norlandrhagen>`_.
+
 
 Internal Changes
 ~~~~~~~~~~~~~~~~
